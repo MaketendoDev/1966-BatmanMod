@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "batman",
+  "version": "${version}",
+  "name": "1966 Batman Mod",
+  "description": "The plugin for the Orititan SMP",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/batman/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.maketendo.batman_mod.main.client.BatmanModClient"
+    ],
+    "main": [
+      "net.maketendo.batman_mod.main.BatmanMod"
+    ]
+  },
+  "mixins": [
+    "batman.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
