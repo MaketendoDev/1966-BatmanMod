@@ -15,9 +15,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class BatmanModBlocks {
-    public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
-            new Block(AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(BatmanMod.MOD_ID, name), block);

@@ -16,7 +16,7 @@ public class BatmanModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(Items.FEATHER))
                     .displayName(Text.translatable("itemgroup.batmanmod.main"))
                     .entries((displayContext, entries) -> {
-                        entries.add(Items.ACACIA_FENCE);
+                        //entries.add(BatmanModBlocks);
                     }).build());
 
 
